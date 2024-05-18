@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Connect to MongoDB
-connect('mongodb+srv://lisalouange:<password>@newcluster.wt1ky9a.mongodb.net/?retryWrites=true&w=majority&appName=NewCluster/speedSense', {
+connect('mongodb+srv://lisalouange:<F3%-nF_.V&da3m6>@newcluster.wt1ky9a.mongodb.net/?retryWrites=true&w=majority&appName=NewCluster/speedSense', {
 }).then(() => {
     console.log('Connected to MongoDB');
 }).catch(err => {
